@@ -17,13 +17,59 @@ body {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 
 .list {
   list-style: none;
 }
 
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* HEADER */
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-utils {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  margin-right: 85px;
+  text-decoration: none;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation-list-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-address-link {
+  margin-right: 30px;
+}
 
 .header-address-link {
   font-family: Roboto;
@@ -51,6 +97,7 @@ body {
   line-height: 1.4;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
 .navigation-list-link:hover,
@@ -80,6 +127,23 @@ body {
 
 /* HERO Section */
 /* изменил цвет заголовка чтобы он был пока что виден на белом фоне */
+
+h1 {
+  margin: 0;
+}
+
+.modal-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2196f3;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -88,9 +152,21 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--title-light-theme-color);
+  margin-bottom: 30px;
 }
 
 /* О НАС */
+
+.about-us {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.about-us-list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .title {
   font-family: var(--main-font);
   font-weight: bold;
@@ -99,6 +175,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-light-theme-color);
+  margin-bottom: 10px;
+}
+
+.about-us-img {
+  margin-bottom: 30px;
 }
 
 .description {
@@ -107,9 +188,14 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 94px;
 }
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+h2 {
+  margin: 0;
+}
 
 .services-title {
   font-family: Roboto;
@@ -119,6 +205,16 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: center;
+}
+
+.services-list-items:not(:last-child) {
+  margin-right: 30px;
 }
 
 .services-description {
@@ -251,6 +347,7 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
+  padding-top: 24px;
 }
 
 .logo-second-title {
@@ -260,8 +357,9 @@ body {
   font-size: 26px;
   line-height: 1.19px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
+  padding-top: 24px;
 }
 
 .logo-footer-link {
