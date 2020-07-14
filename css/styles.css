@@ -197,6 +197,13 @@ h2 {
   margin: 0;
 }
 
+.services-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
 .services-title {
   font-family: Roboto;
   font-weight: bold;
@@ -230,6 +237,30 @@ h2 {
 
 /* OUR TEAM */
 
+h3 {
+  margin: 0;
+}
+
+.masters {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-item-img {
+  margin-bottom: 30px;
+}
+
 .team-title {
   font-family: var(--main-font);
   font-weight: bold;
@@ -238,6 +269,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-light-theme-color);
+  margin-bottom: 50px;
 }
 
 .team-name-title {
@@ -248,6 +280,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .team-list-item-position {
@@ -258,6 +291,16 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list:not(:last-child) {
+  margin-right: 10px;
+  padding-bottom: 127px;
 }
 
 /* OUR CLIENTS */
@@ -270,6 +313,27 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-top: 85px;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-list-link {
+display: block;
+width: 170px;
+height: 90px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+justify-content: center;
 }
 
 /* FOOTER */
