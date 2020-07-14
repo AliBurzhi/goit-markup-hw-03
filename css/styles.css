@@ -1,6 +1,6 @@
 :root {
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --title-dark-theme-color: #ffffff;
   --title-light-theme-color: #212121;
   --accent-color: #2196f3;
@@ -142,6 +142,8 @@ h1 {
 .hero {
   padding-top: 200px;
   padding-bottom: 280px;
+  padding-left: 452px;
+  padding-right: 452px;
 }
 
 .hero-title {
@@ -320,23 +322,30 @@ h3 {
 .clients-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 94px;
 }
 
-.clients-list:not(:last-child) {
+.clients-link-list {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-list-link {
-display: block;
-width: 170px;
-height: 90px;
-border: 1px solid #AFB1B8;
-box-sizing: border-box;
-border-radius: 4px;
-justify-content: center;
-}
-
 /* FOOTER */
+
+.footer-block {
+  background: #2f303a;
+}
 
 .contact-list-item-link {
   font-family: Roboto;
