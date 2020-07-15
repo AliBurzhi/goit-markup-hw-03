@@ -134,7 +134,7 @@ h1 {
   margin: 0;
 }
 
-.hero-wrapper {
+.hero {
   padding-top: 200px;
   padding-bottom: 280px;
   padding-left: 452px;
@@ -162,14 +162,27 @@ h1 {
 
 /* О НАС */
 
-.about-us {
-  display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
+.about-us-section .container {
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 
+.about-us-section {
+  display: block;
+}
+.about-us-section .about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-section .about-us-list {
+  width: 270px;
+}
 .about-us-list:not(:last-child) {
   margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .title {
@@ -180,15 +193,20 @@ h1 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-light-theme-color);
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
-.about-us-img {
-  margin-bottom: 30px;
-  background: #f5f4fa;
-  border-radius: 4px;
+.about-us-section .about-us-img-back {
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  border-radius: 4px;
 }
 
 .description {
@@ -198,6 +216,7 @@ h1 {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
