@@ -1,6 +1,6 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   --title-dark-theme-color: #ffffff;
   --title-light-theme-color: #212121;
   --accent-color: #2196f3;
@@ -198,8 +198,6 @@ h1 {
 }
 
 .about-us-section .about-us-img-back {
-  width: 270px;
-  height: 120px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   padding-top: 25px;
