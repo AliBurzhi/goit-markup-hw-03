@@ -22,6 +22,8 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -132,18 +134,12 @@ h1 {
   margin: 0;
 }
 
-.modal-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: #2196f3;
-}
-
-.hero {
+.hero-wrapper {
   padding-top: 200px;
   padding-bottom: 280px;
   padding-left: 452px;
   padding-right: 452px;
+  background-color: var(--accent-color);
 }
 
 .hero-title {
@@ -155,6 +151,13 @@ h1 {
   text-transform: uppercase;
   color: var(--title-light-theme-color);
   margin-bottom: 30px;
+}
+
+.modal-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2196f3;
 }
 
 /* О НАС */
