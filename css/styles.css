@@ -8,6 +8,16 @@
   --text-light-theme-color: #ffffff;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: var(--main-font);
@@ -27,7 +37,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -167,17 +177,11 @@ h1 {
   padding-bottom: 47px;
 }
 
-.about-us-section {
-  display: block;
-}
-.about-us-section .about-us {
+.about-us {
   display: flex;
   justify-content: center;
 }
 
-.about-us-section .about-us-list {
-  width: 270px;
-}
 .about-us-list:not(:last-child) {
   margin-right: 30px;
   margin-top: 0px;
@@ -449,7 +453,7 @@ h3 {
   display: flex;
 }
 .container-list {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -469,7 +473,7 @@ h3 {
 }
 
 .list-portfolio-items:nth-child(3n) {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 .filter-list {
